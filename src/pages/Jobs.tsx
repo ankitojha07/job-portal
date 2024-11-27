@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import JobComponent from "../components/JobComponent";
 import { IoIosArrowDown, IoMdOptions } from "react-icons/io"; // Filter icon (IoMdOptions)
 
@@ -6,6 +6,61 @@ const Jobs = () => {
   const [isFilterVisible, setIsFilterVisible] = useState(false); // State to toggle filter visibility
 
   const jobData = [
+    {
+      image: "public/images/profile/ankit-ojha.png",
+      role: "Frontend Developer",
+      company: "HappyLocate",
+      ctc: "8 LPA - 17 LPA",
+      location: "Bengaluru, Karnataka, India",
+      employementType: "Full Time",
+      experience: "3-6 Years",
+      category: "Frontend Developer",
+      techSkills: "React.js, Redux, Javascript",
+    },
+    {
+      image: "public/images/profile/ankit-ojha.png",
+      role: "Frontend Developer",
+      company: "HappyLocate",
+      ctc: "8 LPA - 17 LPA",
+      location: "Bengaluru, Karnataka, India",
+      employementType: "Full Time",
+      experience: "3-6 Years",
+      category: "Frontend Developer",
+      techSkills: "React.js, Redux, Javascript",
+    },
+    {
+      image: "public/images/profile/ankit-ojha.png",
+      role: "Frontend Developer",
+      company: "HappyLocate",
+      ctc: "8 LPA - 17 LPA",
+      location: "Bengaluru, Karnataka, India",
+      employementType: "Full Time",
+      experience: "3-6 Years",
+      category: "Frontend Developer",
+      techSkills: "React.js, Redux, Javascript",
+    },
+    {
+      image: "public/images/profile/ankit-ojha.png",
+      role: "Frontend Developer",
+      company: "HappyLocate",
+      ctc: "8 LPA - 17 LPA",
+      location: "Bengaluru, Karnataka, India",
+      employementType: "Full Time",
+      experience: "3-6 Years",
+      category: "Frontend Developer",
+      techSkills: "React.js, Redux, Javascript",
+    },
+    {
+      image: "public/images/profile/ankit-ojha.png",
+      role: "Frontend Developer",
+      company: "HappyLocate",
+      ctc: "8 LPA - 17 LPA",
+      location: "Bengaluru, Karnataka, India",
+      employementType: "Full Time",
+      experience: "3-6 Years",
+      category: "Frontend Developer",
+      techSkills: "React.js, Redux, Javascript",
+    },
     {
       image: "public/images/profile/ankit-ojha.png",
       role: "Frontend Developer",
@@ -65,7 +120,7 @@ const Jobs = () => {
 
         {/* Filters Section */}
         <div
-          className={`ml-12 w-7/12 flex flex-col gap-12 ${
+          className={`ml-12 w-4/12 flex flex-col fixed right-24 ${
             isFilterVisible ? "block" : "hidden"
           } md:block`}
         >

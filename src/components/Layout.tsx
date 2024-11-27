@@ -29,7 +29,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       >
         {/* Menu Content */}
         <div
-          className={`relative z-10 overflow-y-auto bg-gradient-to-br from-purple-900 to-black lg:bg-transparent transition-opacity duration-300 ${
+          className={`relative z-10 overflow-y-auto bg-gradient-to-br from-purple-900 to-black lg:bg-none transition-opacity duration-300 ${
             // eslint-disable-next-line no-constant-condition
             isMenuOpen || "lg:opacity-100" ? "opacity-100" : "opacity-0"
           }`}
